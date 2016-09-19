@@ -5,6 +5,6 @@
 /notebooks/JUV/*
 /notebooks/LIB/*
 /setup/*
-
+/notebooks/.ipynb_checkpoints/*
 
 

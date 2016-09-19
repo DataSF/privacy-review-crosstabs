@@ -1,0 +1,10 @@
+#ignore everything
+*.csv
+
+/source_data/*
+/notebooks/JUV/*
+/notebooks/LIB/*
+/setup/*
+
+
+

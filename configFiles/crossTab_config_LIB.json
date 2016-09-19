@@ -1,0 +1,15 @@
+{
+	"all_items": [{
+		"src_dir": "/home/ubuntu/workspace/source_data/",
+		"crossTabReports": [{
+			"fnName": "Library_Patron_Data.csv",
+			"datasetName": "Library_Patron_Data",
+			"grpFieldString": "Birth Date",
+			"crossTabList": {
+				"fieldCombo1": "Neighborhoods - Analysis Boundaries,Census Tract,Supervisor District"
+			}
+		}],
+		"output_dir": "/home/ubuntu/workspace/notebooks/LIB/",
+		"output_fName": "Library_Patron_Data_CrossTabs.ipynb"
+	}]
+}

@@ -1,0 +1,79 @@
+{
+	"all_items": [{
+		"src_dir": "/home/ubuntu/workspace/source_data/",
+		"crossTabReports": [{
+			"fnName": "Juvenile_Probation_Juvenile_Hall_Admissions.csv",
+			"datasetName": "Juvenile Probation Juvenile Hall Admissions",
+			"grpFieldString": "Detention Year",
+			"crossTabList": {
+				"fieldCombo1": "Ethnicity,Gender",
+				"fieldCombo2": "Ethnicity,Gender,Age At Detention"
+			}
+		}, {
+			"fnName": "Juvenile_Probation_Juvenile_Hall_Daily_Population.csv",
+			"datasetName": "Juvenile_Probation_Juvenile_Hall_Daily_Population",
+			"grpFieldString": "Ethnicity",
+			"crossTabList": {
+				"fieldCombo1": "Detention Year, Release Year"
+			}
+		}, {
+			"fnName": "Juvenile_Probation_Juvenile_Hall_Releases.csv",
+			"datasetName": "Juvenile_Probation_Juvenile_Hall_Releases",
+			"grpFieldString": "Detention Year",
+			"crossTabList": {
+				"fieldCombo1": "Age At Release, Length of Stay In Juvenile Hall Custody"
+			}
+		}, {
+			"fnName": "Juvenile_Probation_Log_Cabin_Ranch_Admissions.csv",
+			"datasetName": "Juvenile_Probation_Log_Cabin_Ranch_Admissions",
+			"grpFieldString": "Log Cabin Ranch Entry Year",
+			"crossTabList": {
+				"fieldCombo1": "Age at Log Cabin Entry Date, Ethnicity"
+			}
+		}, {
+			"fnName": "Juvenile_Probation_Log_Cabin_Ranch_Releases.csv",
+			"datasetName": "Juvenile_Probation_Log_Cabin_Ranch_Releases",
+			"grpFieldString": "Length of Stay In Log Cabin Ranch Placement",
+			"crossTabList": {
+				"fieldCombo1": "Log Cabin Ranch Entry Year, Age of Youth when released from LCR"
+			}
+		}],
+		"output_dir": "/home/ubuntu/workspace/notebooks/JUV/",
+		"output_fName": "Juvenile_Hall_CrossTabs.ipynb"
+	}, {
+		"src_dir": "/home/ubuntu/workspace/source_data/",
+		"crossTabReports": [
+
+			{
+				"fnName": "Juvenile_Probation_Petitions_Sustained.csv",
+				"datasetName": "Juvenile_Probation_Petitions_Sustained",
+				"grpFieldString": "Year Petition Sustained",
+				"crossTabList": {
+					"fieldCombo1": "Ethnicity,Gender",
+					"fieldCombo2": "Ethnicity,Gender,Petition Sustained Offense Degree Level"
+				}
+			}, {
+				"fnName": "Juvenile_Probation_Selected_Court_Dispositions.csv",
+				"datasetName": "Juvenile_Probation_Selected_Court_Dispositions.csv",
+				"grpFieldString": "Disposition Year",
+				"crossTabList": {
+					"fieldCombo1": "Ethnicity,Gender",
+					"fieldCombo2": "Court Disposition Summary, Age At Court Disposition ",
+					"fieldCombo3": "Court Disposition Summary, Ethnicity ",
+					"fieldCombo4": "Court Disposition Summary",
+					"fieldCombo5": "Ethnicity"
+				}
+			}, {
+				"fnName": "Juvenile_Probation_Petitions_Sustained.csv",
+				"datasetName": "Juvenile_Probation_Petitions_Sustained",
+				"grpFieldString": "Year Petition Sustained",
+				"crossTabList": {
+					"fieldCombo1": "Ethnicity,Gender",
+					"fieldCombo2": "Ethnicity,Gender,Petition Sustained Offense Degree Level"
+				}
+			}
+		],
+		"output_dir": "/home/ubuntu/workspace/notebooks/JUV/",
+		"output_fName": "Juvenile_Petitions_Refferals_CrossTabs.ipynb"
+	}]
+}

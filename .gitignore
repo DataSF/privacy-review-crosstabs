@@ -1,6 +1,6 @@
 #ignore everything
 *.csv
-
+/notebooks/.ipynb_checkpoint/*
 /source_data/*
 /notebooks/JUV/*
 /notebooks/LIB/*

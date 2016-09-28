@@ -1,7 +1,7 @@
 {
-	"all_items": [{ 
-	    "configFile1": "crossTab_config_LIB.json",
-	    "configFIle2": "crosstab_config_JUV.json"
+	"crosstab_notebooks": [
+		{ 
+	    "configFile1": "crossTab_config_LIB.json"
 	}]
 }
 	

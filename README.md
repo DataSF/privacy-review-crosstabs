@@ -9,16 +9,19 @@
 * Using crosstabs is a way to identify groups of individuals that maybe susceptible to a data privacy attack. 
 ---
 ## Generating Reports
-1. Start up the ipython notebook server by running this from the command line: 
+1. Start up the ipython notebook server by running this from the command line in the home directory: 
 ```
-./notebooks/start_notebook.sh
+./workspace/START_Notebook_SERVER.sh
 ```
-2. Upload the json config files of crosstab notebooks that you want to run 
-3. Go to the [Generate new notebooks of crosstab reports](http://data_privacy_review_box-c9-j9heiser.c9users.io/notebooks/Export_Privacy_Reviews.ipynb) page
-4. Specify the directory where your main config file lives (aka-main_config.json)
-5. Your crosstab notebooks will be created. Click on the links to view. 
-6. Once you've generated your crosstab notebooks, you will need to click through them to view the results.
-7. Save the ipython notebook output by clicking on file save icon in the upper left. 
+2. Alternatively, you can start up the notebook server by right clicking the file, START_Notebook_SERVER.sh and then click "Run"
+  
+3. Upload the json config files of crosstab notebooks that you want to run 
+4. Go to the [Generate new notebooks of crosstab reports](http://data_privacy_review_box-c9-j9heiser.c9users.io/notebooks/Export_Privacy_Reviews.ipynb) page
+5. Specify the directory where your main config file lives (aka-main_config.json)
+6. Your crosstab notebooks will be created. Click on the links to view. 
+7. Once you've generated your crosstab notebooks, you will need to click through them to view the results.
+8. Save the ipython notebook output by clicking on file save icon in the upper left. 
+
 
 ## Creating Config Files To Generate Reports
 * You can generate numerious crosstabs at once. You will use json config files to this.

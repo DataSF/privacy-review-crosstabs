@@ -1,7 +1,10 @@
-{
-	"crosstab_notebooks": [{
+{  
+	"crosstab_notebooks":
+	[{
 		"source_data_directory": "/home/ubuntu/workspace/source_data/",
 		"output_notebook_base_directory": "/home/ubuntu/workspace/notebooks/",
+		"output_notebook_directory": "LIB",
+		"output_notebook_filename": "Library_Patron_Data_CrossTabs",
 		"notebook_base_url": "http://data_privacy_review_box-c9-j9heiser.c9users.io/",
 		"crosstab_reports": [{
 			"source_data_filename": "Library_Patron_Data.csv",
@@ -18,8 +21,7 @@
 				"field_combo": "Neighborhoods - Analysis Boundaries,Census Tract,Supervisor District",
 				"k_anon_size": 1
 			}]
-		}],
-		"output_notebook_directory": "LIB",
-		"output_notebook_filename": "Library_Patron_Data_CrossTabs.ipynb"
+		}]
+	
 	}]
 }

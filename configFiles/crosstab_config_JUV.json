@@ -1,79 +1,108 @@
 {
-	"all_items": [{
-		"src_dir": "/home/ubuntu/workspace/source_data/",
-		"crossTabReports": [{
-			"fnName": "Juvenile_Probation_Juvenile_Hall_Admissions.csv",
-			"datasetName": "Juvenile Probation Juvenile Hall Admissions",
-			"grpFieldString": "Detention Year",
-			"crossTabList": {
-				"fieldCombo1": "Ethnicity,Gender",
-				"fieldCombo2": "Ethnicity,Gender,Age At Detention"
-			}
+	"crosstab_notebooks": [{
+		"source_data_directory": "/home/ubuntu/workspace/source_data/",
+		"crosstab_reports": [{
+			"source_data_filename": "Juvenile_Probation_Juvenile_Hall_Admissions.csv",
+			"dataset_name": "Juvenile Probation Juvenile Hall Admissions",
+			"groupby_field": "Detention Year",
+			"crosstab_reports": [{
+				"field_combo": "Ethnicity,Gender",
+				"k_anon_size": 3
+			}, {
+				"field_combo": "Ethnicity,Gender,Age At Detention",
+				"k_anon_size": 3
+			}]
 		}, {
-			"fnName": "Juvenile_Probation_Juvenile_Hall_Daily_Population.csv",
-			"datasetName": "Juvenile_Probation_Juvenile_Hall_Daily_Population",
-			"grpFieldString": "Ethnicity",
-			"crossTabList": {
-				"fieldCombo1": "Detention Year, Release Year"
-			}
+			"source_data_filename": "Juvenile_Probation_Juvenile_Hall_Daily_Population.csv",
+			"dataset_name": "Juvenile_Probation_Juvenile_Hall_Daily_Population",
+			"groupby_field": "Ethnicity",
+			"crosstab_reports": [
+
+				{
+					"field_combo": "Detention Year, Release Year",
+					"k_anon_size": 3
+				}
+			]
 		}, {
-			"fnName": "Juvenile_Probation_Juvenile_Hall_Releases.csv",
-			"datasetName": "Juvenile_Probation_Juvenile_Hall_Releases",
-			"grpFieldString": "Detention Year",
-			"crossTabList": {
-				"fieldCombo1": "Age At Release, Length of Stay In Juvenile Hall Custody"
-			}
+			"source_data_filename": "Juvenile_Probation_Juvenile_Hall_Releases.csv",
+			"dataset_name": "Juvenile_Probation_Juvenile_Hall_Releases",
+			"groupby_field": "Detention Year",
+			"crosstab_reports": [{
+				"field_combo": "Age At Release, Length of Stay In Juvenile Hall Custody",
+				"k_anon_size": 3
+			}]
 		}, {
-			"fnName": "Juvenile_Probation_Log_Cabin_Ranch_Admissions.csv",
-			"datasetName": "Juvenile_Probation_Log_Cabin_Ranch_Admissions",
-			"grpFieldString": "Log Cabin Ranch Entry Year",
-			"crossTabList": {
-				"fieldCombo1": "Age at Log Cabin Entry Date, Ethnicity"
-			}
+			"source_data_filename": "Juvenile_Probation_Log_Cabin_Ranch_Admissions.csv",
+			"dataset_name": "Juvenile_Probation_Log_Cabin_Ranch_Admissions",
+			"groupby_field": "Log Cabin Ranch Entry Year",
+			"crosstab_reports": [{
+				"field_combo": "Age at Log Cabin Entry Date, Ethnicity",
+				"k_anon_size": 3
+			}]
 		}, {
-			"fnName": "Juvenile_Probation_Log_Cabin_Ranch_Releases.csv",
-			"datasetName": "Juvenile_Probation_Log_Cabin_Ranch_Releases",
-			"grpFieldString": "Length of Stay In Log Cabin Ranch Placement",
-			"crossTabList": {
-				"fieldCombo1": "Log Cabin Ranch Entry Year, Age of Youth when released from LCR"
-			}
+			"source_data_filename": "Juvenile_Probation_Log_Cabin_Ranch_Releases.csv",
+			"dataset_name": "Juvenile_Probation_Log_Cabin_Ranch_Releases",
+			"groupby_field": "Length of Stay In Log Cabin Ranch Placement",
+			"crosstab_reports": [{
+				"field_combo": "Log Cabin Ranch Entry Year, Age of Youth when released from LCR",
+				"k_anon_size": 3
+			}]
 		}],
-		"output_dir": "/home/ubuntu/workspace/notebooks/JUV/",
-		"output_fName": "Juvenile_Hall_CrossTabs.ipynb"
+		"notebook_base_url": "http://data_privacy_review_box-c9-j9heiser.c9users.io/",
+		"output_notebook_base_directory": "/home/ubuntu/workspace/notebooks/",
+		"output_notebook_directory": "JUV",
+		"output_notebook_filename": "Juvenile_Hall_CrossTabs.ipynb"
 	}, {
-		"src_dir": "/home/ubuntu/workspace/source_data/",
-		"crossTabReports": [
+		"source_data_directory": "/home/ubuntu/workspace/source_data/",
+		"crosstab_reports": [
 
 			{
-				"fnName": "Juvenile_Probation_Petitions_Sustained.csv",
-				"datasetName": "Juvenile_Probation_Petitions_Sustained",
-				"grpFieldString": "Year Petition Sustained",
-				"crossTabList": {
-					"fieldCombo1": "Ethnicity,Gender",
-					"fieldCombo2": "Ethnicity,Gender,Petition Sustained Offense Degree Level"
-				}
+				"source_data_filename": "Juvenile_Probation_Petitions_Sustained.csv",
+				"dataset_name": "Juvenile_Probation_Petitions_Sustained",
+				"groupby_field": "Year Petition Sustained",
+				"crosstab_reports": [{
+					"field_combo": "Ethnicity,Gender",
+					"k_anon_size": 3
+				}, {
+					"field_combo": "Ethnicity,Gender,Petition Sustained Offense Degree Level",
+					"k_anon_size": 3
+				}]
 			}, {
-				"fnName": "Juvenile_Probation_Selected_Court_Dispositions.csv",
-				"datasetName": "Juvenile_Probation_Selected_Court_Dispositions.csv",
-				"grpFieldString": "Disposition Year",
-				"crossTabList": {
-					"fieldCombo1": "Ethnicity,Gender",
-					"fieldCombo2": "Court Disposition Summary, Age At Court Disposition ",
-					"fieldCombo3": "Court Disposition Summary, Ethnicity ",
-					"fieldCombo4": "Court Disposition Summary",
-					"fieldCombo5": "Ethnicity"
-				}
+				"source_data_filename": "Juvenile_Probation_Selected_Court_Dispositions.csv",
+				"dataset_name": "Juvenile_Probation_Selected_Court_Dispositions.csv",
+				"groupby_field": "Disposition Year",
+				"crosstab_reports": [{
+					"field_combo": "Ethnicity,Gender",
+					"k_anon_size": 3
+				}, {
+					"field_combo": "Court Disposition Summary, Age At Court Disposition ",
+					"k_anon_size": 3
+				}, {
+					"field_combo": "Court Disposition Summary, Ethnicity ",
+					"k_anon_size": 3
+				}, {
+					"field_combo": "Court Disposition Summary",
+					"k_anon_size": 3
+				}, {
+					"field_combo": "Ethnicity",
+					"k_anon_size": 3
+				}]
 			}, {
-				"fnName": "Juvenile_Probation_Petitions_Sustained.csv",
-				"datasetName": "Juvenile_Probation_Petitions_Sustained",
-				"grpFieldString": "Year Petition Sustained",
-				"crossTabList": {
-					"fieldCombo1": "Ethnicity,Gender",
-					"fieldCombo2": "Ethnicity,Gender,Petition Sustained Offense Degree Level"
-				}
+				"source_data_filename": "Juvenile_Probation_Petitions_Sustained.csv",
+				"dataset_name": "Juvenile_Probation_Petitions_Sustained",
+				"groupby_field": "Year Petition Sustained",
+				"crosstab_reports": [{
+					"field_combo": "Ethnicity,Gender",
+					"k_anon_size": 3
+				}, {
+					"field_combo": "Ethnicity,Gender,Petition Sustained Offense Degree Level",
+					"k_anon_size": 3
+				}]
 			}
 		],
-		"output_dir": "/home/ubuntu/workspace/notebooks/JUV/",
-		"output_fName": "Juvenile_Petitions_Refferals_CrossTabs.ipynb"
+		"notebook_base_url": "http://data_privacy_review_box-c9-j9heiser.c9users.io/",
+		"output_notebook_base_directory": "/home/ubuntu/workspace/notebooks/",
+		"output_notebook_directory": "JUV",
+		"output_notebook_filename": "Juvenile_Petitions_Refferals_CrossTabs.ipynb"
 	}]
 }

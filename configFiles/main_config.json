@@ -1,0 +1,8 @@
+{
+	"crosstab_notebooks": [
+		{ 
+	    "configFile1": "crossTab_config_LIB.json",
+	    "configFile2": "crosstab_config_JUV.json"
+	}]
+}
+	

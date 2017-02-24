@@ -9,9 +9,19 @@
 * Using crosstabs is a way to identify groups of individuals that maybe susceptible to a data privacy attack. 
 ---
 ## Generating Reports
-1. Start up the ipython notebook server by running this from the command line in the home directory: 
+
+1. Check to see if the ipython notebook server is up and running. Use this command:
 ```
-./workspace/START_Notebook_SERVER.sh
+ps ax | grep notebook
+
+which should output something like this: 
+1826 pts/1    Sl+    0:01 /home/ubuntu/miniconda2/bin/python /home/ubuntu/miniconda2/bin/ipython notebook --ip=0.0.0.0 --port=8080 --no-browser --notebook-dir=/home/ubuntu/workspace/notebooks
+```
+
+2. If the notebook server isn't running start up the ipython notebook server by running these commands from the command line: 
+```
+ cd ~
+./START_Notebook_SERVER.sh
 ```
 2. Alternatively, you can start up the notebook server by right clicking the file, START_Notebook_SERVER.sh and then click "Run"
   
